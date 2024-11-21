@@ -27,7 +27,7 @@ const addPatients = patient =>{
 
   //5
 const updatePatient = (patient, id) => {
-const list = patients.filter(t => t.id === id ? patient : t)
+const list = patients.filter(p => p.id === id ? patient : p)
 setPatients([...list, patient])
 }
 

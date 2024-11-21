@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { usePatients } from "../components/Context/patientsProvider";
+import { usePatients } from "./Context/PatientsProvider";
+//importando data provisoria
+
+
 
 const PacientesForm = () => {
   const { addPatients } = usePatients();
@@ -11,9 +14,9 @@ const PacientesForm = () => {
 
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const paciente = { nombre, apellido, edad, diagnostico };
+    e.preventDefault()
+    
+  const paciente = { nombre, apellido, edad, diagnostico };
 
     console.log(paciente)
     
@@ -23,6 +26,10 @@ const PacientesForm = () => {
     setEdad("");
     setDiagnostico("");
   };
+
+  
+  
+
 
 
   return (

@@ -1,5 +1,5 @@
 import PacienteItem from "./PacienteItem";  
-import { usePatients } from "../components/Context/patientsProvider";
+import { usePatients } from "./Context/PatientsProvider";
 
 const PacientesLista = () => {
   //const navigate = useNavigate();

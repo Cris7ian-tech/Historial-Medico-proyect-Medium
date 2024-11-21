@@ -1,9 +1,10 @@
-
+import { Link } from "react-router-dom"
 
 const Inicio = () => {
   return (
     <>
-    Inicio
+    
+    <button><Link to="/dashboard">Ir a Dashboard</Link></button>
     </>
   )
 }
