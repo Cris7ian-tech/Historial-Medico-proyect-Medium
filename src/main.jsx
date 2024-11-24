@@ -10,6 +10,7 @@ import Root from './routes/Root.jsx';
 import DashboardLayout from './routes/DashboardLayout.jsx';
 
 
+
 //instanciando el router
 const router = createBrowserRouter([
   // {
@@ -40,6 +41,9 @@ const router = createBrowserRouter([
       }
     ]
   },
+
+  
+
 ]
 )
 

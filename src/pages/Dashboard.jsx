@@ -13,7 +13,7 @@ const Dashboard = () => {
     <>
       
       
-      <Inicio />
+    <Inicio />
       
     </>
         

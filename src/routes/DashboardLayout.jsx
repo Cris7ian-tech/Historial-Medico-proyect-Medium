@@ -1,15 +1,15 @@
-import { Outlet } from "react-router-dom"
-import SidebarMenu from "../components/SidebarMenu"
-
+//import { Outlet } from "react-router-dom"
+//import SidebarMenu from "../components/SidebarMenu"
+  
 
 const DashboardLayout = () => {
   return (
     <>
-      <SidebarMenu />
+      {/* <SidebarMenu /> */}
       
-      <Outlet >
+      {/* <Outlet >
         
-      </Outlet>
+      </Outlet> */}
     </>
   )
 }
