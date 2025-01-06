@@ -4,11 +4,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Dashboard from './pages/Dashboard.jsx';
+//import Dashboard from './pages/Dashboard.jsx';
 import Inicio from './pages/Inicio.jsx';
 import Root from './routes/Root.jsx';
 import DashboardLayout from './routes/DashboardLayout.jsx';
-
+import Calendario from './components/calendario/calendario.jsx';
 
 
 //instanciando el router
@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         children: [
           {
             path: "/Dashboard",
-            element: <Dashboard />
+            element: <Calendario />
           }          
         ]
       }

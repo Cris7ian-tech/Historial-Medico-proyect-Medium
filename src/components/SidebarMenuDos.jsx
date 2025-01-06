@@ -1,6 +1,7 @@
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/js/dist/dropdown';
+import Calendario from './calendario/calendario';
 
 const SidebarMenuDos = () => {
   return (
@@ -56,6 +57,7 @@ const SidebarMenuDos = () => {
           </div>
           <div className="col py-3">
             Content area...
+            <Calendario />
           </div>
         </div>
       </div>
