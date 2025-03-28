@@ -1,21 +1,12 @@
-import "./App.css";
-import PacientesForm from "./components/PacientesForm";
-import PacientesLista from "./components/PacientesLista";
-import PatientsProvider from "./components/Context/patientsProvider";
+
+//import * as bootstrap from 'bootstrap';
+
 
 function App() {
   
 
   return (
-    <>
-      <PatientsProvider>
-        <div className="container">
-          <h1>Demo Manejo de Pacientes</h1>
-          <PacientesForm />
-          <PacientesLista />
-        </div>
-      </PatientsProvider>
-    </>
+    <h1>App</h1>
   );
 }
 

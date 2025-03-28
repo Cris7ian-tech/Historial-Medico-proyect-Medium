@@ -1,0 +1,46 @@
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 90px auto;
+  grid-template-rows: 60px auto;
+  /*damos areas a la grid*/
+  grid-template-areas:"nav nav"
+                      "sidebar main";
+  transition: all 0.5s ease;
+}
+
+.home-container.active {
+  grid-template-columns: 150px auto;
+}
+
+.navBar {
+  grid-area: nav;
+  background-color: rgb(83, 77, 77);
+
+  padding: 0 20px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 20px;
+}
+
+.logo {
+  cursor : pointer;
+  gap: 10px;
+}
+.logo:hover {
+  background-color: #1f272a;
+}
+
+.sidebar-menu {
+  grid-area: sidebar;
+  background-color: darkgrey;
+}
+
+.contenido {
+  grid-area: main;
+  background-color: lightgrey;
+}
